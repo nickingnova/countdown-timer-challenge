@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Launch countdown timer | Frontend Mentor </title>
+</head>
+<body class="global__container">
+  <main class="counter" id="counter">
+    <h1 class="counter__title">
+      We're launching soon
+    </h1>
+    <h2 id="counter__subtitle">
+      Set a Date in UTC
+    </h2>
+    <!-- <div class="counter__numbers-container" id="counter">
+      <div class="counter__numbers-box">
+        <div class="number-box top">
+          <h2 class="numbers days">08</h2>
+        </div>
+        <div class="number-box bottom">
+          <h2 class="numbers days">08</h2>
+        </div>
+        <h3 class="numbers__title">Days</h3>
+      </div>
+      <div class="counter__numbers-box">
+        <div class="number-box top">
+          <h2 class="numbers hours">23</h2>
+        </div>
+        <div class="number-box bottom">
+          <h2 class="numbers hours">23</h2>
+        </div>
+        <h3 class="numbers__title">Hours</h3>
+      </div>
+      <div class="counter__numbers-box">
+        <div class="number-box top">
+          <h2 class="numbers minutes">55</h2>
+        </div>
+        <div class="number-box bottom">
+          <h2 class="numbers minutes">55</h2>
+        </div>
+        <h3 class="numbers__title">Minutes</h3>
+      </div>
+      <div class="counter__numbers-box">
+        <div class="number-box top">
+          <h2 class="numbers seconds">41</h2>
+        </div>
+        <div class="number-box bottom">
+          <h2 class="numbers seconds">41</h2>
+        </div>
+        <h3 class="numbers__title">Seconds</h3>
+      </div>
+    </div> -->
+    <div class="test" id="test">
+    </div>
+    <div class="counter__date">
+      <input type="datetime-local" name="dateFinal" id="dateFinal" onChange="catchDate()">
+      <!-- <button type="submit" id="setDate" class="setDate" onClick="startCountown()" disabled>Start</button> -->
+      <button type="submit" id="setDate" class="setDate" onClick="stopCountown()" disabled>STOP</button>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    <div class="attribution__icons">
+      <a href="#" target="_blank"><i class="fab fa-linkedin icon"></i></a><a href="#" target="_blank"><i class="fab fa-twitter icon"></i></a><a href="#" target="_blank"><i class="fab fa-github-square icon"></i></a>
+    </div>
+    <div class="attribution__text">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/nickingnova" target="_blank">nickingnova</a>.
+    </div>
+  </footer>
+  <script src="/js/simplyCountdown.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
